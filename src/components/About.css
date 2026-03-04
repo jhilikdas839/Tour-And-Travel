@@ -1,0 +1,309 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  
+}
+
+
+.abt {
+  width: 100%;
+  position: relative;
+}
+
+.abt-wrap {
+  width: 100%;
+}
+
+.abt-img {
+  width: 100%;      
+  height: auto;      
+  display: block;    
+  object-fit: cover;
+  object-position: top;
+}
+.abt-head{
+  margin-top: 35px;
+}
+
+.abt-h1{
+  text-align: center;
+  
+  font-size: 1.6rem;
+  color: #020d3d;
+  font-weight: 500;
+}
+
+.abt-p{
+  color: black;
+  text-align: center;
+  font-size: 15px;
+margin-top: 10px;
+line-height: 1.2rem;
+}
+
+.abt-box1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;  
+  align-items: stretch;            
+  gap: 20px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.box1 {
+  flex: 1;                          
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;               /* Center all text */
+  gap: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon{
+  font-size: 2rem;
+  color: #020d3d;
+}
+
+.card-p{
+  font-size: 15px;
+  line-height: 1.2rem;
+  color: black;
+}
+
+.card-h4{
+  font-size: 1.6rem;
+   background: linear-gradient(90deg, rgba(27, 158, 209, 1) 0%, rgba(5, 16, 87, 1) 54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.abt-choose {
+  margin: 60px auto 0 auto;  
+  padding: 15px 30px;
+  width: 90%;
+  background-color: #F3F4F6;
+  border-radius: 10px;
+
+ 
+  position: static;
+  left: auto;
+  transform: none;
+}
+.abt-choose-h1{
+  background: linear-gradient(90deg, rgba(27, 158, 209, 1) 0%, rgba(5, 16, 87, 1) 54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.abt-choose-p{
+  padding: 10px 0px;
+}
+
+.abt-box2{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;  
+  align-items: stretch;            
+  gap: 20px;
+  padding: 20px;
+  
+}
+
+
+.box2 {
+  flex: 1;                          
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;               /* Center all text */
+  gap: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.icon2{
+  font-size: 2rem;
+  color: #020d3d;
+}
+
+.card-p{
+  font-size: 15px;
+  line-height: 1.2rem;
+  color: black;
+}
+
+
+.abt-box3{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;  
+  align-items: stretch;            
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+
+.box3 {
+   flex: 0 0 32%;                        
+  
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;               /* Center all text */
+  gap: 10px;
+  
+}
+
+.abt-img1{
+  width: 100%;
+  border-radius: 10px;
+  
+}
+
+.abt-img1:hover{
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+.abt-title{
+  margin-top:60px ;
+  text-align: center;
+  width: 100%;
+}
+
+.title{
+  font-size: 4rem;
+  background: linear-gradient(90deg, rgba(27, 158, 209, 1) 0%, rgba(5, 16, 87, 1) 54%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+}
+
+.usp-section {
+  width: 100%;
+  padding: 60px 5%;
+  text-align: center;
+  background: #f8fafc;
+}
+
+.usp-title {
+  font-size: 38px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.usp-subtitle {
+  font-size: 18px;
+  max-width: 800px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+  color: #475569;
+}
+
+/* Grid 3 per row */
+.usp-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* USP Cards */
+.usp-card {
+  background: white;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  text-align: left;
+  transition: 0.3s;
+}
+
+.usp-title{
+  color: #020d3d;
+}
+
+.usp-subtitle{
+  color: black;
+}
+
+.usp-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.12);
+}
+
+.usp-icon {
+  font-size: 32px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.usp-card h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+
+.usp-card p {
+  font-size: 16px;
+  color: #475569;
+  line-height: 1.5;
+}
+
+/* Responsive */
+
+@media (max-width: 768px)  {
+  .abt-p{
+    padding: 0px 20px;
+  }
+
+  .abt-box1{
+    flex-direction: column;
+  }
+
+  .abt-box2{
+    flex-direction: column;
+  }
+
+  .abt-box3{
+    flex-direction: column;
+  }
+
+  .title{
+    font-size: 3rem;
+  }
+
+  .usp-subtitle{
+      padding: 0px  13px;
+  }
+
+    .usp-container {
+    grid-template-columns: 1fr; /* 1 card per row */
+  }
+
+}
