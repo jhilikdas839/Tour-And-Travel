@@ -32,9 +32,13 @@ const Footer = () => {
         <section className="Footer-icons">
           <h4 className="title-icon">Social Media</h4>
           <section className="wrap-icon-footer">
+            {/* FaceBook Link */}
             <a className="footer-hyperlink" href="https://www.facebook.com/share/1DSETpdJEr/"><i className="ri-facebook-circle-fill"></i></a>
+             {/* Instagram Link */}
             <a className="footer-hyperlink" href="https://www.instagram.com/easytrip.official?igsh=cW9ndDljeGp3aDJh"><i className="ri-instagram-fill"></i></a>
-           <a className="footer-hyperlink" href=""> <i className="ri-youtube-fill"></i></a>
+            {/* Youtube Link */}
+           <a className="footer-hyperlink" href="https://youtube.com/@easytriptourstravels?si=0oGV42ince0L3fXW"> <i className="ri-youtube-fill"></i></a>
+            {/* Linkedin Link */}
             <a className="footer-hyperlink" href="https://www.linkedin.com/company/easy-trip-tour-travels/"><i className="ri-linkedin-box-fill"></i></a>
           </section>
         </section>

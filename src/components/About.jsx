@@ -30,12 +30,7 @@ const About = () => {
             <i className=" icon  ri-ancient-gate-fill"></i>
             <h4 className="card-h4">Travel & Tourism</h4>
             <p className="card-p">
-              The idea of setting up Easy Trip was a result of intense
-              discussion between the founders on issues being faced by
-              travellers while planning a tour, till its execution. The notion
-              of being able to provide the best possible solution to the
-              discerning traveller, led to the creation of Travelxploria; with
-              its plethora of services.
+              The idea of setting up Easy Trip came from detailed discussions among the founders about the problems travellers face while planning and completing a trip. The vision was to make travel simple, comfortable, and well-organized. This thought led to the creation of Easy Trip, offering a wide range of travel services to ensure every traveller enjoys a smooth and memorable journey.
             </p>
           </div>
           <div className="box1">
@@ -67,7 +62,7 @@ const About = () => {
         <section className="abt-choose">
           <h1 className="abt-choose-h1">Why Easy Trip</h1>
           <p className="abt-choose-p">
-            Since 2015, <b>Easy Trip</b> has grown from a small travel
+            <b>Easy Trip</b> has grown from a small travel
             initiative into a trusted, full-service tour agency delivering
             exceptional travel experiences.
           </p>
@@ -127,7 +122,7 @@ const About = () => {
         <section className="usp-section">
           <h2 className="usp-title">Our USP</h2>
           <p className="usp-subtitle">
-            We offer fully personalized and hassle-free travel experiences, where every detail—from planning to execution—is handled with expert care, ensuring comfort, trust, and unforgettable memories.
+            We offer fully personalized and hassle-free travel experiences, where every details—from planning to execution—is handled with expert care, ensuring comfort, trust, and unforgettable memories.
             
             Here’s what sets us apart:
           </p>
@@ -146,7 +141,7 @@ const About = () => {
               <span className="usp-icon">📘</span>
               <h3>Personalized Planning</h3>
               <p>
-                Custom itineraries shaped to fit your interests, pace, and
+                Custom itineraries shaped to fit your interests, peace, and
                 comfort.
               </p>
             </div>

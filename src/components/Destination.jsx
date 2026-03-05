@@ -21,11 +21,11 @@ const Destination = () => {
           </Link>
           <h4 className="rec">We Recommended</h4>
           <h4 className="rec1">
-            Beautifull Destination <br /> Every month
+            Beautiful Destination <br /> Every month
           </h4>
           <p className="des-p">
             Discover new places, new people, and new stories with Easy 
-            <br /> Trip — travel Made Easy.
+            <br /> Trip — Travel Made Easy.
           </p>
         </div>
       </main>
